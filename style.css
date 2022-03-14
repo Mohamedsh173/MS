@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Space Mono', monospace;
+}
+body{
+    height: auto;
+    width: auto;
+}
+img.humans {
+    width: 655px;
+    padding: 60px;
+}
+
+div.main-content {
+    background-image: url(Picsart_22-01-27_22-20-27-371.jpg);
+    background-repeat: no-repeat;
+    background-color:white;
+    background-size: 1200px;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    border-radius: 50px;
+    align-items: center;
+    margin: 48px;
+}
+p.main {
+    font-family: 'Space Mono', monospace;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 38px;
+}
+p.sub{
+    font-family: 'Space Mono', monospace;
+    font-style: normal;
+    font-weight:bold;
+    font-size: 17px;
+    line-height: 35px;
+    padding-bottom: 14px;
+}
+.button{
+    border-radius: 15px;
+    padding:5px 20px;
+    text-align: center;
+    text-decoration: none;
+    background-color:#a90e14;
+    color: whitesmoke;
+    box-shadow: -1px 3px 5px 0px rgba(0, 0, 0, 20%);
+    cursor:pointer;
+}
+::selection{
+    color: whitesmoke;
+    transition: 0.8s;
+    background-color:#a90e14;
+    border-radius: 50%;
+}
+.button:hover{
+    background-color: black;
+    font-weight: bold;
+    color: whitesmoke;
+    text-transform:uppercase;
+    transition: background-color 2s, color 0.8s;
+    transition: cubic-bezier(0, -1.02, 0, 1.47);
+}
+.bttn{
+    width: 20px;
+    text-align: center;
+}
+#background{
+    position:fixed;
+    top: 0px;
+    z-index:-1;
+    width: 100%;
+    height: 50%;
+    background-color:#a90e14;
+}
+.row a i {
+    width: 50px;
+    height: 50px;
+    color: white;
+}
+@media only screen and (max-width: 600px) {
+div.main-content{
+        margin: 18px;
+        border-radius: 20px;
+    }
+p.main{
+        font-size: 15px;
+    }
+p.sub{
+    font-size: 15px;
+    margin-top: 15px;
+    }
+img.humans{
+    padding: 40px;
+}
+div.main-content{
+    background-image: url(Picsart_22-02-11_04-06-47-495.jpg);
+    background-size: 315px;
+    background-color: white
+}
+}
